@@ -17,3 +17,4 @@
 PRODUCT_PACKAGE_OVERLAYS += vendor/extra/overlay/common
 
 include vendor/extra/config/fonts.mk
+include vendor/extra/config/audio.mk

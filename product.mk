@@ -18,3 +18,7 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/extra/overlay/common
 
 include vendor/extra/config/fonts.mk
 include vendor/extra/config/audio.mk
+
+# Default permissions whitelist
+PRODUCT_COPY_FILES += \
+    vendor/extra/config/default-permissions-extra.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/default-permissions/default-permissions-extra.xml
